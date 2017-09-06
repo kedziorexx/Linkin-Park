@@ -1,0 +1,500 @@
+body {
+	margin:0;
+}
+
+#intro {
+	background-image:url("img/tlo2.jpg");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height:100vh;
+	background-repeat:no-repeat;
+	
+}
+
+
+#intro nav
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+nav ul {
+list-style-type: none;
+}
+
+nav ul>li {
+	font-family: 'Oswald', sans-serif;
+	display:inline;
+	padding:15px;
+	font-size:25px;
+}
+
+li>a
+{
+	display:inline-block;
+	text-decoration: none;
+	color:black;
+	transition: font-size 1s;
+}
+
+li>a:hover
+{
+	text-shadow: 2px 2px black;
+	font-size:30px;
+
+}
+
+
+
+h1 { margin: 0;
+	font-family: 'Oswald', sans-serif;
+	text-align:center; 
+	font-size:30px;
+	padding-top:10px;
+	padding-bottom:20px;
+	color:white;
+	letter-spacing:3px;
+	text-shadow:1px 1px 1px white;
+	}
+
+#band
+{
+	background-image:url("img/band.jpg");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height:100vh;
+	background-repeat:round;	
+	max-width:100%;
+}
+
+.aboutband
+{
+	margin:auto;
+	width:800px;
+	height:320px;
+	border:2px solid white;
+	box-shadow: 10px 10px 5px black;
+	overflow: scroll;
+	text-align:justify;
+	padding:7px;
+	font-size:15px;
+	font-family: 'Lato', sans-serif;
+	line-height: 1.5;
+
+}
+
+p::first-letter { 
+    font-size: 150%;
+    color: black;
+}
+
+#band2
+{
+	background-image:url("img/linkin.jpg");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height:100vh;
+	background-repeat:round;	
+	max-width:100%;
+	background-attachment: fixed;: 
+}
+
+#members
+{background-image:url("img/tlo3.jpg");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	min-height:100%;
+	background-repeat:round;	
+	
+	margin:auto;
+
+}
+
+.member
+{
+	display: inline-block;
+	margin:50px;
+	overflow: hidden;
+
+}
+.member img
+{
+	transition: all 0.7s ease-in-out;
+}
+.member:hover img
+{
+	-webkit-transform: scale(1.5) rotate(-360deg);
+	-ms-transform: scale(1.5) rotate(-360deg);
+	transform: scale(1.5) rotate(-360deg);
+}
+
+
+figcaption
+{text-align:center;
+font-family:'Lato', sans-serif;
+padding-top:15px;
+font-size:20px;}
+
+.membersofband
+{
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+
+img
+{
+	border-radius:5px;
+	box-shadow: 10px 10px 10px black;
+}
+
+#gallery {
+	background-image:url("img/tlo4.jpg");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height:100vh;
+	background-repeat:round;
+	position:relative;
+	
+	text-align: center; 
+	
+
+	
+}
+
+.display-container
+{
+	position:absolute;
+	width:60%;
+	margin:auto;
+	top:12.5%; 
+	left:12.5%;
+
+}
+
+
+#concerts
+{
+	background-image:url("img/kosmos.jpg");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height:100%;
+	background-repeat:round;
+}
+
+.cd
+{background-image:url("img/onemorelight.jpg");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height:400px;
+	text-align:center;
+	color:white;
+	letter-spacing: 3px;
+	font-family: 'Lato', sans-serif;
+	font-size:45px;
+	padding:160px;
+	font-weight: bold;
+	box-sizing: border-box;
+
+}
+
+table {
+    font-family: Lato, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    color:white;
+    font-size:25px;
+  margin:auto;
+   
+
+}
+
+
+
+
+td, {
+    
+    text-align: left;
+    padding: 20px;
+    
+    width:33,3%;
+
+}
+
+tr {
+	height:200px;
+	text-align: center;
+	
+}
+
+
+button
+{
+	width:200px;
+	height:50px;
+	border:2px solid black;
+	color:black;
+	font-family: Lato, sans-serif;
+	font-size:20px;
+	opacity: 0.7;
+
+}
+
+button:hover
+{
+	cursor: pointer;
+	opacity:0.5;
+}
+
+#chester
+{background-image:url("img/chester.jpg");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: round;
+	min-height:100vh;
+	background-repeat:no-repeat;
+
+}
+
+.opacity {
+	background:rgba(0,0,0,0.9);
+}
+
+.main
+{
+	float:right;
+	width:550px;
+	height:100%;
+	
+	font-family: Lato, sans-serif;
+	margin-right:20px;
+
+}
+.cap
+{
+	color:white;
+font-family: Lato, sans-serif; 
+text-align:justify;
+
+}
+
+.cap::first-letter
+{
+	color:white;
+font-family: Lato, sans-serif; 
+
+}
+
+#shinoda
+{
+	background-image:url("img/mike3.jpg");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: round;
+	min-height:100vh;
+	background-repeat:no-repeat;
+}
+
+
+.main1
+{
+	float:left;
+	width:550px;
+	height:100%;
+	
+	font-family: Lato, sans-serif;
+	margin-left:20px;
+	
+
+}
+
+.cap2
+{
+	color:white;
+	margin-top:200px;
+	text-align:justify;
+}
+
+.cap2::first-letter
+{
+	color:white;
+
+}
+
+#hahn
+{background-image:url("img/hahn.jpg");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: round;
+	min-height:100vh;
+	background-repeat:no-repeat;}
+
+.main3 {
+float:left;
+	width:550px;
+	height:100%;
+	color:black;
+	text-align:justify;
+	font-family: Lato, sans-serif;
+	margin-left:20px;
+}
+
+#delson
+{
+	background-image:url("img/delson.jpeg");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: round;
+	min-height:110vh;
+	background-repeat:no-repeat;
+}
+
+.cap4
+{
+	float:left;
+	width:400px;
+	height:100%;
+	color:white;
+	text-align:justify;
+	font-family: Lato, sans-serif;
+	margin-left:20px;
+}
+
+.cap4::first-letter
+{
+	color:white;
+}
+
+.cap5
+{
+	float:right;
+	width:450px;
+	height:100%;
+	color:white;
+	text-align:justify;
+	font-family: Lato, sans-serif;
+	margin-right:20px;
+
+}
+.cap5::first-letter
+{
+	color:white;
+}
+
+.cap6
+{
+	float:left;
+	width:250px;
+	height:100%;
+	color:white;
+	text-align:justify;
+	font-family: Lato, sans-serif;
+	margin-left:20px;
+}
+
+.cap6::first-letter
+{color:white;}
+
+.cap7
+{
+	float:right;
+	width:450px;
+	height:100%;
+	color:white;
+	text-align:justify;
+	font-family: Lato, sans-serif;
+	margin-right:20px;
+
+}
+.cap7::first-letter
+{color:white;}
+#rob2
+{
+	background-image:url("img/rob1.jpg");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: round;
+	min-height:120vh;
+	background-repeat:no-repeat;
+	color:white;
+}
+
+#farrel
+{
+	background-image:url("img/farrel.jpg");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: round;
+	min-height:120vh;
+	background-repeat:no-repeat;
+	color:white;
+}
+
+.cap8
+{
+	float:left;
+	width:600px;
+	height:100%;
+	color:white;
+	text-align:justify;
+	font-family: Lato, sans-serif;
+	margin-left:20px;
+
+}
+.cap8::first-letter
+{color:white;}
+
+.cap9
+{
+	
+	width:460px;
+	height:100%;
+	color:white;
+	text-align:justify;
+	font-family: Lato, sans-serif;
+	margin-left:20px;
+
+}
+.cap9::first-letter
+{color:white;}
+
+.cap10
+{
+	width:450px;
+	color:white;
+	text-align:justify;
+	font-family: Lato, sans-serif;
+	margin-left:20px;
+}
+
+.cap10::first-letter
+{color:white;}
+
+footer {
+	text-align:center;
+	background-color: black;
+	color:white;
+	font-family: Lato, sans-serif;
+}
